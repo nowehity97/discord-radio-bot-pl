@@ -1,0 +1,21 @@
+{
+  "name": "radio-bot",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "concurrently \"node bot.js\"",
+    "init-db": "node db.js",
+    "dev": "concurrently \"nodemon bot.js\""
+  },
+  "dependencies": {
+    "@discordjs/voice": "^0.16.0",
+    "axios": "^1.6.2",
+    "concurrently": "^8.2.1",
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.6.1",
+    "sodium-native": "^3.3.0",
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
